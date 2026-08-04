@@ -41,7 +41,7 @@ blender-rodin/
 
 * Faça upload de uma imagem 2D limpa, de preferência com fundo neutro e boa iluminação.
 * Ajuste as configurações de geração (prompt extra, se necessário).
-* Exporte o modelo gerado na pasta `02_rodin_raw/`.
+* Exporte o modelo gerado na pasta `obj/`.
 
 ### 2. Importação no Blender
 

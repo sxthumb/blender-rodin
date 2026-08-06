@@ -62,3 +62,18 @@ blender-rodin/
 * **Texturas do Rodin:** Como o Rodin costuma assar as luzes e sombras diretamente na textura, vale a pena recriar os materiais no Blender caso o objetivo seja usar iluminação em tempo real.
 * **Preservar o Modelo Original:** Mantenha a malha bruta gerada pelo Rodin em uma coleção oculta no Blender para usar como referência (*snapping*) durante a retopologia.
 * **Organização dos Arquivos:** Utilize nomes padronizados para as versões, ex: `objeto_v01.blend`, `objeto_final_lod0.fbx`.
+
+---
+## **The Animation Pipeline Stages**
+
+In the Japanese anime production pipeline, **BG (Background), Layout, Genga, and Shiage** represent sequential steps that turn a storyboard concept into a fully colored, composited sequence. Each phase handles a specific layer or level of refinement in creating a cut. 
+
+- **Layout (レイアウト - Reiauto):** The blueprint stage. It sets the scene's perspective, camera frame bounds, background placement, and character composition based on the storyboard.
+- **Genga (原画 - Key Animation):** The primary key frames drawn over or referencing the layout. These define the major poses, expressive character details, and precise timing charts.
+- **Shiage (仕上げ - Painting/Coloring):** The digital or cel coloring phase. Painters apply flat colors, shadows, and highlights using designated color model sheets after the line art is cleaned up.
+
+### **How the Workflow Connects**
+
+- **Composition Foundation:** The background (BG) and layout are established first so character positions match the perspective.
+- **Line Art Refinement:** Rough layouts move to clean key animation (Genga), followed by in-betweens (Douga).
+- **Final Application:** Once clean line art is digitized, the Shiage team fills in the official color flats before compositing merges everything together.
